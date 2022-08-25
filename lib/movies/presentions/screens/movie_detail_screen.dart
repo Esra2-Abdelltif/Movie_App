@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:movies_and_tv_app/core/network/movies_api_constantace.dart';
+import 'package:movies_and_tv_app/core/utils/app_constance.dart';
 import 'package:movies_and_tv_app/core/utils/app_strings.dart';
 import 'package:movies_and_tv_app/core/utils/enums.dart';
 import 'package:movies_and_tv_app/movies/domian/entites/genres.dart';
@@ -256,27 +257,32 @@ class MovieDetailContent extends StatelessWidget {
                 return FadeInUp(
                   from: 20,
                   duration: const Duration(milliseconds: 500),
-                  child: ClipRRect(
-                    borderRadius: const BorderRadius.all(Radius.circular(4.0)),
-                    child: CachedNetworkImage(
-                      imageUrl: MoviesApiConstance.imageUrl(
-                          moviesrRecommendations.backdropPath!),
-                      placeholder: (context, url) => Shimmer.fromColors(
-                        baseColor: Colors.grey[850]!,
-                        highlightColor: Colors.grey[800]!,
-                        child: Container(
-                          height: 170.0,
-                          width: 120.0,
-                          decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.circular(8.0),
+                  child: InkWell(
+                    onTap: (){
+                      NavigateTo(context: context,router: MovieDetailScreen(id: moviesrRecommendations.id));
+                    },
+                    child: ClipRRect(
+                      borderRadius: const BorderRadius.all(Radius.circular(4.0)),
+                      child: CachedNetworkImage(
+                        imageUrl: MoviesApiConstance.imageUrl(
+                            moviesrRecommendations.backdropPath!),
+                        placeholder: (context, url) => Shimmer.fromColors(
+                          baseColor: Colors.grey[850]!,
+                          highlightColor: Colors.grey[800]!,
+                          child: Container(
+                            height: 170.0,
+                            width: 120.0,
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
                           ),
                         ),
+                        errorWidget: (context, url, error) =>
+                            const Icon(Icons.error),
+                        height: 180.0,
+                        fit: BoxFit.cover,
                       ),
-                      errorWidget: (context, url, error) =>
-                          const Icon(Icons.error),
-                      height: 180.0,
-                      fit: BoxFit.cover,
                     ),
                   ),
                 );

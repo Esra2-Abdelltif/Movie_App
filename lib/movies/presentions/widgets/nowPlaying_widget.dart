@@ -37,7 +37,7 @@ class NowPlayingWidget extends StatelessWidget {
                 child: CarouselSlider(
                   options: CarouselOptions(
                     height: 450,
-                   // viewportFraction: 1.0,
+                    viewportFraction: 1,
                     onPageChanged: (index, reason) {},
                   ),
                   items: state.nowPlayingMovies.map(
@@ -72,7 +72,7 @@ class NowPlayingWidget extends StatelessWidget {
                                 height: 560.0,
                                 width:double.infinity,
                                 imageUrl: MoviesApiConstance.imageUrl(item.backdropPath),
-                                //fit: BoxFit.cover,
+                                fit: BoxFit.cover,
                               ),
                             ),
                             Align(

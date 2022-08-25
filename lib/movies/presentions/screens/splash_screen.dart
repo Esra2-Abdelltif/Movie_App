@@ -16,11 +16,11 @@ class SplashSCreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Center(child: Image.asset('images/logo.png',width: 250,height: 150),),
+          SizedBox(height:25 ,),
           RichText(
               text: const TextSpan(
                   text: 'Watch',
                   style: TextStyle(
-                    fontFamily: 'muli',
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
@@ -29,7 +29,7 @@ class SplashSCreen extends StatelessWidget {
                     TextSpan(
                       text: 'Movie',
                       style: TextStyle(
-                        color: Colors.red,
+                        color: Colors.purple,
                         fontWeight: FontWeight.bold,
                         fontSize: 25,
                       ),
