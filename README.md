@@ -1,16 +1,17 @@
-# movies_and_tv_app
+# watch-movie
 
-A new Flutter application.
+It's an application with beautiful UI that built with Flutter using:
 
-## Getting Started
+- Flutter bloc pattern
+- Dio, Http client for Dart
+- url_launcher, A Flutter plugin for launching a URL
+- cached_network_image, A flutter library to show images from the internet
+- carousel_slider, A carousel slider widget
+- TypeAheadField for search
 
-This project is a starting point for a Flutter application.
+ScreenShoot:
 
-A few resources to get you started if this is your first Flutter project:
+Splash Screen             |  Home Screen             |Movie Details
+:-------------------------:|:-------------------------:|:-------------------------:
+![WhatsApp Image 2021-10-08 at 12 36 01 AM](https://user-images.githubusercontent.com/91211054/136472351-3ebd8db9-02fa-4fa9-95c1-46c30467e82b.jpeg) | ![WhatsApp Image 2021-10-08 at 12 36 01 AM (2)](https://user-images.githubusercontent.com/91211054/136472369-a2673b52-9c4d-475f-9861-d55d81f97a15.jpeg) | ![WhatsApp Image 2021-10-08 at 12 36 01 AM (1)](https://user-images.githubusercontent.com/91211054/136472409-930db098-513b-403e-85da-f4814c7e6479.jpeg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
