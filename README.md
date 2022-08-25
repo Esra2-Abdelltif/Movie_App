@@ -7,11 +7,14 @@ It's an application with beautiful UI that built with Flutter using:
 - url_launcher, A Flutter plugin for launching a URL
 - cached_network_image, A flutter library to show images from the internet
 - carousel_slider, A carousel slider widget
-- TypeAheadField for search
+
 
 ScreenShoot:
 
 Splash Screen             |  Home Screen             |Movie Details
 :-------------------------:|:-------------------------:|:-------------------------:
-![WhatsApp Image 2021-10-08 at 12 36 01 AM](https://user-images.githubusercontent.com/91211054/136472351-3ebd8db9-02fa-4fa9-95c1-46c30467e82b.jpeg) | ![WhatsApp Image 2021-10-08 at 12 36 01 AM (2)](https://user-images.githubusercontent.com/91211054/136472369-a2673b52-9c4d-475f-9861-d55d81f97a15.jpeg) | ![WhatsApp Image 2021-10-08 at 12 36 01 AM (1)](https://user-images.githubusercontent.com/91211054/136472409-930db098-513b-403e-85da-f4814c7e6479.jpeg)
+![Screenshot_20220825-234922](https://user-images.githubusercontent.com/72301777/186775429-02d14469-53fb-43aa-9a92-be263baefa40.jpg)
+ | ![Screenshot_20220825-232436](https://user-images.githubusercontent.com/72301777/186775455-7f8fce04-6c2a-4c19-9ffd-6a5a79be6667.jpg)
+ | ![Screenshot_20220825-232537](https://user-images.githubusercontent.com/72301777/186775482-305635b1-a60e-485c-baf9-dd375ff87fe3.jpg)
+
 
