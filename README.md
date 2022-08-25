@@ -15,8 +15,7 @@ Built with Flutter clean Architure:
 Using Flutter Package:
 
 
-![image](https://user-images.githubusercontent.com/72301777/186776351-b87c1ebe-3ba1-4df5-86d2-1d9bbacfc0ae.png)
-
+![image](https://user-images.githubusercontent.com/72301777/186777129-7e67ec27-339c-4cc9-9d81-9cba6c21b72d.png)
 
 
 
