@@ -1,12 +1,19 @@
-# watch-movie
+# movie App
 
 It's an application with beautiful UI that built with Flutter using:
 
-- Flutter bloc pattern
 - Dio, Http client for Dart
-- url_launcher, A Flutter plugin for launching a URL
+- Sate Mangement Bloc.
 - cached_network_image, A flutter library to show images from the internet
 - carousel_slider, A carousel slider widget
+
+Built with Flutter clean Architure:
+![image](https://user-images.githubusercontent.com/72301777/186776258-45a0a6c4-1779-41ad-be95-3e829cafbe3a.png)
+
+Using Flutter Package:
+![image](https://user-images.githubusercontent.com/72301777/186776351-b87c1ebe-3ba1-4df5-86d2-1d9bbacfc0ae.png)
+
+
 
 
 ScreenShoot:
