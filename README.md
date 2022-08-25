@@ -7,7 +7,7 @@ It's an application with beautiful UI that built with Flutter using:
 - cached_network_image, A flutter library to show images from the internet
 - carousel_slider, A carousel slider widget
 
-Built with Flutter clean Architure:
+Built with Flutter clean Archiecture:
 
 
 ![image](https://user-images.githubusercontent.com/72301777/186776258-45a0a6c4-1779-41ad-be95-3e829cafbe3a.png)
